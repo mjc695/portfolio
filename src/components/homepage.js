@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from '../logo.svg';
+import '../App.css'
 
-import Navbar from './Navbar'
-import Routes from './routes'
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Routes />
-      {/* <header className="App-header">
+const homepage = ( ) =>{
+
+    return (
+        <div>
+            <h1>HOMEPAGE</h1>
+            <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,9 +21,9 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-    </div>
-  );
+      </header>
+        </div>
+    )
 }
 
-export default App;
+export default homepage
