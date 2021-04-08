@@ -1,0 +1,18 @@
+.button-wrapper{
+    /* height: 4vh; */
+    width: 4vw;
+    padding: .5vh;
+}
+
+.githubButton{
+    color: gray;
+    border-radius: .8vw;
+}
+
+.githubButton:hover{
+    cursor: pointer;
+}
+
+.githubLogo{
+    height: 4vh;
+}

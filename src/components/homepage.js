@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../logo.svg';
 import '../App.css'
+import GithubButton from './GithubButton';
 
 
 const homepage = ( ) =>{
@@ -8,6 +9,7 @@ const homepage = ( ) =>{
     return (
         <div>
             <h1>HOMEPAGE</h1>
+            {/* <GithubButton link={'https://www.google.com'}/> */}
             <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
