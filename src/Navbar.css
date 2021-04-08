@@ -6,12 +6,25 @@
 
 .nav-link-wrapper {
     padding: 5vw;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link{
-    padding: 1vw;
+    text-size-adjust: 120%;
+    padding: .8vw;
+    margin: .8vw;
+    background-color: gainsboro;
+    color: black;
+    border-radius: .5vh;
+    text-decoration: none;
+}
+
+.git-link{
+    /* background-color: hotpink; */
+    border-radius: .5vh;
 }
 
 .app-logo {
-    height: 15vh;
+    height: 10vh;
 }
