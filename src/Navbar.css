@@ -1,23 +1,25 @@
 .nav-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .nav-link-wrapper {
-    padding: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vh;
     display: flex;
     align-items: center;
 }
 
 .nav-link{
-    text-size-adjust: 120%;
+    font-size: 80%;
     padding: .8vw;
     margin: .8vw;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: .5vh;
     text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(185, 185, 185);
 }
 
 .git-link{
