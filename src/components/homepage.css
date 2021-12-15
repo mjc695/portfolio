@@ -1,0 +1,36 @@
+.homepage-wrapper{
+    /* background-color: rgb(238, 232, 232); */
+    margin: 0 5vw 0 5vw ;
+    padding: 0 5vw 5vh 5vw ;
+    justify-content: center;
+}
+
+.homepage-text-wrapper{
+    /* background-color: honeydew; */
+}
+
+.image-wrapper{
+    /* margin: 0 3vw 0 3vw ; */
+    margin: 3vw;
+}
+
+.homepage-photo{
+    width: 45vw;
+}
+
+.homepage-text{
+    color:rgb(82, 82, 82)
+}
+
+.github-button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .homepage-text-wrapper{
+        margin: 5vw;
+        padding: 5vw;
+    }
+}

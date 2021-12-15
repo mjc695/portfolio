@@ -1,11 +1,13 @@
 .button-wrapper{
     /* height: 4vh; */
-    width: 4vw;
+    /* width: 4vw; */
     padding: .5vh;
 }
 
 .githubButton{
-    color: gray;
+    display: flex;
+    align-items: center;
+    color: rgb(114, 114, 114);
     border-radius: .8vw;
 }
 
@@ -15,4 +17,9 @@
 
 .githubLogo{
     height: 4vh;
+    padding: .2vw;
+}
+
+.button-text{
+    padding: 3px;
 }
