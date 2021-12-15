@@ -12,6 +12,7 @@ const Routes = () => {
     return(
         <div>
             <Switch>
+                <Route exact path ='/' component={homepage} />
                 <Route path='/homepage' component={homepage} />
                 <Route path='/fullstack' component={FullstackPage}/>
                 <Route path='/solo' component={SoloPage} />
