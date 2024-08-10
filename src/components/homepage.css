@@ -3,10 +3,25 @@
     margin: 0 5vw 0 5vw ;
     padding: 0 5vw 5vh 5vw ;
     justify-content: center;
+    align-items: center;
+
+}
+
+.all-page-wrapper{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 252, 129);
+    height: 70%;
+    width: 70%;
+    z-index: 2;
+    position:absolute;
+    left: 15%;
+    top: 15%;
+    
 }
 
 .homepage-text-wrapper{
-    /* background-color: honeydew; */
+
 }
 
 .image-wrapper{
@@ -14,9 +29,9 @@
     margin: 3vw;
 }
 
-.homepage-photo{
+/* .homepage-photo{
     width: 45vw;
-}
+} */
 
 .homepage-text{
     color:rgb(82, 82, 82)

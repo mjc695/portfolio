@@ -13,10 +13,11 @@ const Navbar = () => {
         <div className='nav-wrapper'>
             <BrowserView>
                 <div className='nav-link-wrapper'>
-                    <Link className='nav-link' to='/homepage' > HOMEPAGE</Link>
-                    <Link className='nav-link' to='/fullstack' >fullstack projects</Link>
-                    <Link className='nav-link' to='/solo' >Solo Projects</Link>
+                    <Link className='nav-link' to='/' > HOMEPAGE</Link>
                     <Link className='nav-link' to='/aboutme' >About Me</Link>
+                    <Link className='nav-link' to='/engineering' >Software Engineering</Link>
+                    <Link className='nav-link' to='/photography' >photography</Link>
+                    {/* <Link className='nav-link' to='/solo' >Solo Projects</Link> */}
                     <div className='git-link'>
                         <GithubButton/>
                     </div>
